@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2d9ca408.chunk.css",
+    "main.js": "/static/js/main.3cab2355.chunk.js",
+    "main.js.map": "/static/js/main.3cab2355.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.df61cde6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.df61cde6.js.map",
+    "static/css/2.92abccde.chunk.css": "/static/css/2.92abccde.chunk.css",
+    "static/js/2.0179baa0.chunk.js": "/static/js/2.0179baa0.chunk.js",
+    "static/js/2.0179baa0.chunk.js.map": "/static/js/2.0179baa0.chunk.js.map",
+    "static/js/3.092e264c.chunk.js": "/static/js/3.092e264c.chunk.js",
+    "static/js/3.092e264c.chunk.js.map": "/static/js/3.092e264c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.92abccde.chunk.css.map": "/static/css/2.92abccde.chunk.css.map",
+    "static/css/main.2d9ca408.chunk.css.map": "/static/css/main.2d9ca408.chunk.css.map",
+    "static/js/2.0179baa0.chunk.js.LICENSE.txt": "/static/js/2.0179baa0.chunk.js.LICENSE.txt",
+    "static/media/Syed-Muhammad-Jaffer-Abbas-CV.ddee3494.pdf": "/static/media/Syed-Muhammad-Jaffer-Abbas-CV.ddee3494.pdf",
+    "static/media/about.aee0f771.png": "/static/media/about.aee0f771.png",
+    "static/media/blog1.cd552ee0.png": "/static/media/blog1.cd552ee0.png",
+    "static/media/blog2.86ab8b6d.png": "/static/media/blog2.86ab8b6d.png",
+    "static/media/bookstore.7f2fc407.png": "/static/media/bookstore.7f2fc407.png",
+    "static/media/bridge.1802202d.png": "/static/media/bridge.1802202d.png",
+    "static/media/chatApp.bd1d6e93.png": "/static/media/chatApp.bd1d6e93.png",
+    "static/media/daoApp.d98d8bb9.png": "/static/media/daoApp.d98d8bb9.png",
+    "static/media/daoEvents.4d2754e8.png": "/static/media/daoEvents.4d2754e8.png",
+    "static/media/gaming-store.d08e3230.png": "/static/media/gaming-store.d08e3230.png",
+    "static/media/halls-booking.4e85ea92.png": "/static/media/halls-booking.4e85ea92.png",
+    "static/media/style.css": "/static/media/pre.4410c5ba.svg",
+    "static/media/home-main.359935c3.svg": "/static/media/home-main.359935c3.svg",
+    "static/media/instaBlue.ed672d94.png": "/static/media/instaBlue.ed672d94.png",
+    "static/media/phoenix.c6d8f9c6.png": "/static/media/phoenix.c6d8f9c6.png",
+    "static/media/photo.1914b30b.jpg": "/static/media/photo.1914b30b.jpg",
+    "static/media/restaurant.36f7b98b.png": "/static/media/restaurant.36f7b98b.png",
+    "static/media/sheFly.b336ce64.jpg": "/static/media/sheFly.b336ce64.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df61cde6.js",
+    "static/css/2.92abccde.chunk.css",
+    "static/js/2.0179baa0.chunk.js",
+    "static/css/main.2d9ca408.chunk.css",
+    "static/js/main.3cab2355.chunk.js"
+  ]
+}
