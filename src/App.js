@@ -16,31 +16,54 @@ import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const [load, upadateLoad] = useState(true);
+  const [page, setPage] = useState(
+    localStorage.getItem("page") ? Number(localStorage.getItem("page")) : 0
+  );
 
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
     }, 1200);
 
-    return () => clearTimeout(timer);
+    return () => {
+      clearTimeout(timer);
+    };
   }, []);
 
+  const navbarOnClick = (value) => {
+    setPage(Number(value));
+    localStorage.setItem("page", value);
+  };
+
   return (
-    <Router>
+    <div>
+      {/* <Router> */}
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <Navbar />
-        <ScrollToTop />
-        <Switch>
+        <Navbar navbarOnClick={navbarOnClick} />
+        {/* <ScrollToTop /> */}
+        {page == 0 ? (
+          <Home />
+        ) : page == 1 ? (
+          <About />
+        ) : page == 2 ? (
+          <Projects />
+        ) : page == 3 ? (
+          <Resume />
+        ) : (
+          <Blog />
+        )}
+        {/* <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/project" component={Projects} />
           <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />
           <Route path="/blog" component={Blog} />
-        </Switch>
+        </Switch> */}
         <Footer />
       </div>
-    </Router>
+      {/* </Router> */}
+    </div>
   );
 }
 
