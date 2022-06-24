@@ -19,29 +19,39 @@ import {
 import {
   SiFirebase,
   SiTypescript,
+  SiJavascript,
   SiHeroku,
   SiGraphql,
   SiMysql,
-  SiAngularjs,
+  SiMongodb,
   SiAmazonaws,
 } from "react-icons/si";
-import { FaAws } from "react-icons/fa";
+import { RiAngularjsFill } from "react-icons/ri";
+import { FaNode } from "react-icons/fa";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiAngularSimple />
+        <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAngularjs />
+        <RiAngularjsFill />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaNode />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJavascript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAmazonaws />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiGithubBadge />
       </Col>
@@ -50,37 +60,27 @@ function Techstack() {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGraphql />
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMysql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTypescript />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiBootstrap />
+        <DiHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiCss3 />
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5 />
+        <DiBootstrap />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJava />
       </Col>
     </Row>
   );
