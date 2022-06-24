@@ -44,7 +44,6 @@ function AboutCard() {
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
             "Learning while HOPING and HUSTLING!!!"{" "}
           </p>
-          {/* <footer className="blockquote-footer">Soumyajit</footer> */}
         </blockquote>
       </Card.Body>
     </Card>
