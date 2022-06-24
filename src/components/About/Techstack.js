@@ -24,7 +24,6 @@ import {
   SiMysql,
   SiAngularjs,
   SiAmazonaws,
-  SiSocketdotio,
 } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
 
@@ -42,9 +41,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSocketdotio />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGithubBadge />
