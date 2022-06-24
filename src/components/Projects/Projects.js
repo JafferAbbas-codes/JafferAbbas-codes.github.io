@@ -15,6 +15,7 @@ import gamingStore from "../../Assets/Projects/gaming-store.png";
 import restaurant from "../../Assets/Projects/restaurant.png";
 import chatApp from "../../Assets/Projects/chatApp.png";
 import snake from "../../Assets/Projects/snake.jpg";
+import onelink from "../../Assets/Projects/onelink.jpg";
 
 function Projects() {
   return (
@@ -28,6 +29,15 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={onelink}
+              isBlog={false}
+              title="1Link Sohni Dharti "
+              description=" Sohni Dharti Remittance Program is designed to incentivize Non-Resident Pakistanis to use formal banking channels to remit their hard-earned money to beneficiaries in Pakistan.  "
+              link="https://1link.net.pk/sohni-dharti/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={daoEvents}
